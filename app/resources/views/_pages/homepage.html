@@ -1,0 +1,172 @@
+{% extends "resources/views/_layouts/layout.html" %}
+{% set title = "Homepage" %}
+
+{% block content %}
+
+	<div class="top-bg"></div>
+  <header>
+    <div class="header-wrapper">
+      <div class="left-block">
+        <ul>
+          <li>
+            <a href="#"><img src="assets/img/logo.png" alt="Delfi logo"></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/img/turismagids.png" alt="turismagids logo"></a>
+          </li>
+        </ul>
+      </div>
+      <nav class="right-block">
+        <ul>
+          <li>
+            <a href="#">Sakums</a>
+          </li>
+          <li>
+            <a href="#">Noteikumi</a>
+          </li>
+          <li>
+            <a href="#">Par Balvu</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="content">
+      <div class="leaf">
+        <img src="assets/img/leaf.png" alt="Leafs">
+      </div>
+
+      <div class="main-title">
+        <img src="assets/img/heading.png" alt="Heading">
+      </div>
+
+      <h2>Iesuti savu celojuma stastu lidz <span>15. oktobrim</span> un laime celojumu 2 personam uz</h2>
+
+      <ul class="countries">
+        <li>
+          <img src="assets/img/abu.jpg" alt="Abu Dhabi" />
+          <a href="#">Abu Dhabi</a>
+        </li>
+        <li>vai</li>
+        <li>
+          <img src="assets/img/nature.jpg" alt="Thai" />
+					<a href="#">Srilanka</a>
+        </li>
+        <li>vai</li>
+        <li>
+          <img src="assets/img/thai.jpg" alt="Thailand" />
+          <a href="#">Thailand</a>
+        </li>
+      </ul>
+
+      <div class="columbus">
+        <p>Celojumu<br/>nodrosina</p>
+        <img src="assets/img/kolumbus.png" alt="kolumbus logo" />
+      </div>
+
+      <h2>Lai piedalitos konkursa, pievieno savu celojuma stastu</h2>
+
+      <div class="form">
+        <div class="top-part">
+          <input type="text" placeholder="Vards" />
+          <input type="text" placeholder="Uzvards" />
+          <input type="text" placeholder="E-pasts" />
+          <input type="number" placeholder="Telefona numurs" />
+        </div>
+        <input type="text" placeholder="Stasta virsraksts" />
+        <div class="middle-part">
+          <textarea placeholder="Ieraksti savu stastu seit vai augsupielade word failu"></textarea>
+          <ul>
+            <li>
+              <input type="text" placeholder="Word Fails"/>
+              <a href="#"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <input type="text" placeholder="Pievieno bildes"/>
+              <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-part">
+          <div>
+            <h5>Es izvelos celojumu uz</h5>
+            <div class="radio">
+              <input type="radio">
+              <p>Abu Dhabi</p>
+            </div>
+            <div class="radio">
+              <input type="radio">
+              <p>Srilanka</p>
+            </div>
+            <div class="radio">
+              <input type="radio">
+              <p>Taizeme</p>
+            </div>
+          </div>
+          <button>Pievienot</button>
+        </div>
+      </div>
+
+      <h2>Iedvesmojies stasta rakstisanai</h2>
+
+      <div class="blue-block">
+        <div class="top-block">
+          <img src="assets/img/turismagids.png" alt="turismagids logo">
+        </div>
+        <ul>
+          <li>
+            <img src="assets/img/nature2.png" alt="Nature" />
+            <div>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <div>
+                <h4>Pantala</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sit, deserunt rem minima alias.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/nature3.png" alt="Nature" />
+            <div>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <div>
+                <h4>Pantala</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sit, deserunt rem minima alias.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="assets/img/nature4.png" alt="Nature" />
+            <div>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <div>
+                <h4>Pantala</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sit, deserunt rem minima alias.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <h2>Pastasti<br/>draugiem par so konkursu!</h2>
+
+      <ul class="social-icons">
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+
+    <footer>
+      <ul>
+        <li><a href="#">Sakums</a></li>
+        <li><a href="#">Noteikumi</a></li>
+        <li><a href="#">Par balvu</a></li>
+      </ul>
+      <div class="girafee-icon">
+        <img src="assets/img/girafee.png" alt="girafee icon" />
+      </div>
+    </footer>
+  </div>
+  <div class="bottom-bg"></div>
+</div>
+
+{% endblock %}
